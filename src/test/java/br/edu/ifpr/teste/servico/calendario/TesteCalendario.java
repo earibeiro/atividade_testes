@@ -35,10 +35,8 @@ public void imprimeJaneiro2025() throws IOException {
     String saidaEsperada = Files.readString(path);
     saidaEsperada = saidaEsperada.replace("\r\n", "\n");
     
-    // Act (AGIR)
     String janeiro2025 = calendario.getCalendario("1", "2025");
     
-    // Compare normalized strings (trim whitespace and normalize line endings)
     assertEquals(
         saidaEsperada.trim().replaceAll("\\s+$", "").replaceAll("\\n+$", ""), 
         janeiro2025.trim().replaceAll("\\s+$", "").replaceAll("\\n+$", ""), 

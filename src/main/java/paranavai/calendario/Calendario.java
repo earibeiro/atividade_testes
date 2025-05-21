@@ -4,14 +4,8 @@ import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Calendar;
 
-/**
- * Classe que implementa a funcionalidade do programa Cal
- */
 public class Calendario {
     
-    /**
-     * Retorna o calendário do mês atual
-     */
     public String getCalendario() {
         Calendar cal = Calendar.getInstance();
         int mes = cal.get(Calendar.MONTH) + 1; // Janeiro é 0 no Calendar
@@ -19,26 +13,18 @@ public class Calendario {
         return gerarCalendarioMesAno(mes, ano);
     }
     
-    /**
-     * Retorna o calendário do ano especificado
-     */
+
     public String getCalendario(String ano) {
         validarAno(ano);
         return gerarCalendarioAno(Integer.parseInt(ano));
     }
     
-    /**
-     * Retorna o calendário do mês e ano especificados
-     */
     public String getCalendario(String mes, String ano) {
         validarMes(mes);
         validarAno(ano);
         return gerarCalendarioMesAno(Integer.parseInt(mes), Integer.parseInt(ano));
     }
     
-    /**
-     * Processa múltiplos parâmetros, usando apenas os dois primeiros
-     */
     public String getCalendario(String... variosParametros) {
         if (variosParametros.length == 0) {
             return getCalendario();
@@ -48,8 +34,6 @@ public class Calendario {
             return getCalendario(variosParametros[0], variosParametros[1]);
         }
     }
-    
-    // Métodos auxiliares para validação e geração de calendários
     
     private void validarMes(String mesStr) {
         try {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.156" tests="28" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.edu.ifpr.teste.servico.senha.TesteSenha" time="0" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,32 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAnoValido" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.053"/>
-  <testcase name="testMesComZeroEsquerda" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.01"/>
-  <testcase name="testMesValidoAnoInvalido" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.004"/>
-  <testcase name="testMesAcimaDoLimite" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testSemParametros" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMesEAnoNaoNumericos" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testAnoAcimaDoLimite" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMesLimiteInferior" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testMesAbaixoDoLimite" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="imprimeJaneiro2025" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.009"/>
-  <testcase name="testMesAposReforma" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testAnoNegativo" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMultiplosParametrosExtras" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testAnoComReforma" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMesEAnoInvalidos" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testReformaGregorianaSeptember1752" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.009"/>
-  <testcase name="testMesAntesReforma" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testAnoNaoNumerico" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testAnoLimiteSuperior" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMesAnoValidos" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testMesLimiteSuperior" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testMesNaoNumerico" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.001"/>
-  <testcase name="testAnoComApenasDigitos" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testAnoLimiteInferior" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testAnoComZerosEsquerda" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testAnoAbaixoDoLimite" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
-  <testcase name="testMesNegativo" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.01"/>
-  <testcase name="testParametrosExtras" classname="br.edu.ifpr.teste.servico.calendario.TesteCalendario" time="0.002"/>
+  <testcase name="deveLancarExcecaoQuandoNaoTemCaractereEspecial" classname="br.edu.ifpr.teste.servico.senha.TesteSenha" time="0"/>
 </testsuite>

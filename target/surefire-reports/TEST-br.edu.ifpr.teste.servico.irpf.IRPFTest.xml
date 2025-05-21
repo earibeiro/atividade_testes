@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.089" tests="15" errors="13" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.013" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\ribei\AppData\Local\Temp\surefire1051871030570796168\surefirebooter14898856559095763625.jar C:\Users\ribei\AppData\Local\Temp\surefire1051871030570796168 2025-05-21T01-36-22_587-jvmRun1 surefire10150727210616662624tmp surefire_014783354899663652161tmp"/>
+    <property name="sun.java.command" value="C:\Users\ribei\AppData\Local\Temp\surefire9340566834652953675\surefirebooter4847512623039697114.jar C:\Users\ribei\AppData\Local\Temp\surefire9340566834652953675 2025-05-21T01-53-09_859-jvmRun1 surefire1847933953529487028tmp surefire_011847621551083485593tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="IRPFTest"/>
     <property name="surefire.test.class.path" value="D:\01_Documentos\02_Faculdade\04_4oAno\Testes_03\Testes03\target\test-classes;D:\01_Documentos\02_Faculdade\04_4oAno\Testes_03\Testes03\target\classes;C:\Users\ribei\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ribei\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ribei\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ribei\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ribei\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ribei\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ribei\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ribei\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ribei"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ribei\AppData\Local\Temp\surefire1051871030570796168\surefirebooter14898856559095763625.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ribei\AppData\Local\Temp\surefire9340566834652953675\surefirebooter4847512623039697114.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -59,114 +58,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testRendaNegativa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.045">
-    <error message="Unresolved compilation problem: &#10;	The attribute expected is undefined for the annotation type Test&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The attribute expected is undefined for the annotation type Test
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNegativa(IRPFTest.java:163)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteInferiorSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteInferiorSegundaFaixa(IRPFTest.java:114)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteInferiorQuartaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.002">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteInferiorQuartaFaixa(IRPFTest.java:158)
-</error>
-  </testcase>
-  <testcase name="testRendaZero" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.002">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaZero(IRPFTest.java:174)
-</error>
-  </testcase>
-  <testcase name="testRendaQuartaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.002">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaQuartaFaixa(IRPFTest.java:70)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteSuperiorPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.002">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteSuperiorPrimeiraFaixa(IRPFTest.java:103)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteSuperiorTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.003">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteSuperiorTerceiraFaixa(IRPFTest.java:147)
-</error>
-  </testcase>
-  <testcase name="testRendaSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaSegundaFaixa(IRPFTest.java:48)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteSuperiorSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteSuperiorSegundaFaixa(IRPFTest.java:125)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteInferiorPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteInferiorPrimeiraFaixa(IRPFTest.java:92)
-</error>
-  </testcase>
-  <testcase name="testRendaPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.007"/>
-  <testcase name="testRendaNoLimiteInferiorTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteInferiorTerceiraFaixa(IRPFTest.java:136)
-</error>
-  </testcase>
-  <testcase name="testRendaTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaTerceiraFaixa(IRPFTest.java:59)
-</error>
-  </testcase>
-  <testcase name="testRendaNoLimiteIsencao" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.001">
-    <error message="Unresolved compilation problem: &#10;	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method assertEquals(short, short, String) in the type Assertions is not applicable for the arguments (String, BigDecimal, BigDecimal)
-
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaNoLimiteIsencao(IRPFTest.java:82)
-</error>
-  </testcase>
-  <testcase name="testRendaIsenta" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0.002">
-    <failure message="Renda de R$ 1.000,00 deve ser isenta ==&gt; expected: &lt;0&gt; but was: &lt;0.00&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Renda de R$ 1.000,00 deve ser isenta ==> expected: <0> but was: <0.00>
-	at br.edu.ifpr.teste.servico.irpf.IRPFTest.testRendaIsenta(IRPFTest.java:27)
-]]></failure>
-  </testcase>
+  <testcase name="testRendaNegativa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteInferiorSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteInferiorQuartaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaZero" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaQuartaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteSuperiorPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteSuperiorTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteSuperiorSegundaFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteInferiorPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaPrimeiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteInferiorTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaTerceiraFaixa" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaNoLimiteIsencao" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
+  <testcase name="testRendaIsenta" classname="br.edu.ifpr.teste.servico.irpf.IRPFTest" time="0"/>
 </testsuite>
