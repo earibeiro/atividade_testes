@@ -1,0 +1,7 @@
+br\edu\ifpr\teste\servico\ordenacao\ServicoSenha.class
+br\edu\ifpr\teste\Main.class
+br\edu\ifpr\teste\excecao\SenhaException.class
+br\edu\ifpr\teste\servico\ordenacao\ServicoOrdenacao.class
+br\edu\ifpr\teste\utils\MensagemUtil.class
+br\edu\ifpr\teste\servico\irpf\CalculadoraIRPF.class
+paranavai\calendario\Calendario.class
